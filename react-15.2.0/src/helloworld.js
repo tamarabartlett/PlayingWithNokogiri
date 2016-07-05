@@ -1,4 +1,11 @@
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('example')
-);
+var HelloWorld = React.createClass({
+  render: function(){
+    return (
+      <div>
+        Hello World!
+      </div>
+    )
+  }
+});
+
+ReactDOM.render(<HelloWorld />, document.getElementById('example'));

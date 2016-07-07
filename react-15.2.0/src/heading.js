@@ -1,7 +1,7 @@
 var derp = React.createClass({
 	render: function(){
 		return(
-			<h1> You're a Fool!</h1>
+			<h2> Dis my h2!</h2>
 		)
 	}
 });

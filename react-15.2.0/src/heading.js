@@ -4,8 +4,13 @@ var Derp = React.createClass({
       isItDerpy: 'Truth'
     }
   },
+  handleClick: function() {
+  	this.setState({
+      isItDerpy: 'Falsey'
+    });
+  },
   render: function(){
-    return (<h2>{this.state.isItDerpy}</h2>)
+    return (<h2 onClick={this.handleClick}>{this.state.isItDerpy}</h2>)
   }
 });
 

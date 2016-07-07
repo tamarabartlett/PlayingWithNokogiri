@@ -13,10 +13,20 @@ var HelloUser = React.createClass({
     return (
       <div>
         Hello {this.state.username} <br />
-        Change Name: <input type="text" value={this.state.username} onChange={this.handleChange} />
+        Derp Write a thing: <input type="text" value={this.state.username} onChange={this.handleChange} />
       </div>
     )
   }
 });
 
 ReactDOM.render(<HelloUser />, document.getElementById('loginForm'));
+
+var Heading = React.createClass({
+	render: function(){
+		return(
+			<h1> You're a Fool!</h1>
+		)
+	}	
+});
+
+ReactDOM.render(<Heading />, document.getElementById('heading'))

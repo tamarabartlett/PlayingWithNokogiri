@@ -19,4 +19,4 @@ var HelloUser = React.createClass({
   }
 });
 
-ReactDOM.render(<HelloUser />, document.getElementById('example'));
+ReactDOM.render(<HelloUser />, document.getElementById('loginForm'));

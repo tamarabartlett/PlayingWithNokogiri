@@ -21,12 +21,14 @@ var HelloUser = React.createClass({
 
 ReactDOM.render(<HelloUser />, document.getElementById('loginForm'));
 
-var Heading = React.createClass({
-	render: function(){
-		return(
-			<h1> You're a Fool!</h1>
-		)
-	}	
+var HelloWorld = React.createClass({
+  render: function(){
+    return (
+      <h1>
+        Hello World!
+      </h1>
+    )
+  }
 });
 
-ReactDOM.render(<Heading />, document.getElementById('heading'))
+ReactDOM.render(<HelloWorld />, document.getElementById('heading'))

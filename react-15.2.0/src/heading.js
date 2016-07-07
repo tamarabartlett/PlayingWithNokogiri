@@ -1,9 +1,7 @@
-var derp = React.createClass({
+var Derp = React.createClass({
 	render: function(){
-		return(
-			<h2> Dis my h2!</h2>
-		)
+		return(<h2>Derp derp derp'</h2>)
 	}
 });
 
-ReactDOM.render(<derp />, document.getElementById('paragraph'));
+ReactDOM.render(<Derp />, document.getElementById('derp'));
